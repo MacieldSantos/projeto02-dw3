@@ -1,0 +1,41 @@
+/* ========================================
+    Projeto 02 - DESENVOLVIMENTO WEB III
+    FATEC Luigi Papaiz
+    DSM - 3 º Semestre
+======================================== */
+
+/* RESET BÁSICO */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO GERAL DA PÁGINA */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #b5121b;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
+
+header p {
+    color: #555;
+    font-size: 1.1rem;
+}
