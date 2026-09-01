@@ -7,12 +7,15 @@
     <title>DSM - 3º Semestre | FATEC Luigi Papaiz</title>
 
     <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/js/script.js" defer></script>
+
 </head>
 
 <body>
     <header class="home-header">
         <div class="home-header-conteudo">
-            <p class="instiruicao">
+            <p class="instituicao">
                 FATEC Luigi Papaiz
             </p>
             <h1>
@@ -45,9 +48,72 @@
                 diferentes áreas estudadas durante o curso.
             </p>
             <div class="banner-curso">
+                <img src="/img/fatec.jpg" alt="Desenvolvimento de Software Multiplataforma na FATEC Luigi Papaiz">
+            </div>
+        </section>
+
+        <section>
+
+            <h2>Interação com JavaScript</h2>
+
+            <p id="mensagemJS">
+                Clique no botão para testar o JavaScript da página.
+            </p>
+
+            <button onclick="testarJS()">
+                Testar JavaScript
+            </button>
+
+        </section>
+
+        <section>
+            <h2>Dados do Projeto</h2>
+
+            <p>
+                As informações abaixo são carregadas de um arquivo JSON utilizando JavaScript.
+            </p>
+
+            <div id="dadosProjeto">
+                Carregando informações...
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologias Utilizadas</h2>
+
+            <p>
+                Neste Projeto são utilizadas tecnologias fundamentais para o desenvolvimento Web.
+            </p>
+
+            <div class="banner-tecnologias">
                 <img 
-                src="/img/fatec.jpg" 
-                alt="Desenvolvimento de Software Multiplataforma na FATEC Luigi Papaiz">
+                    src="/img/tecnologias.png" 
+                    alt="Ilustração das tecnologias HTML, CSS, JavaScript, Node.js e JSON utilizadas no projeto">
+
+            </div>
+
+            <div class="tecnologias-grid">
+                <div class="tecnologia-item">
+                    <h3>HTML</h3>
+                    <p>Estrutura e organização do contéudo das páginas.</p>
+                </div>
+
+                <div class="tecnologia-item">
+                    <h3>CSS</h3>
+                    <p>Estilização, layout e responsividade do site.</p>
+                </div>
+
+                <div class="tecnologia-item">
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e carregamento dinâmico de informações.</p>
+
+                </div>
+
+                <div class="tecnologia-item">
+                    <h3>Node.js</h3>
+                    <p>Servidor HTTP, rotas e disponibilização de arquivos estáticos.</p>
+                </div>
+
             </div>
         </section>
 
