@@ -26,3 +26,14 @@ fetch('/dados/disciplinas.json')
             'Não foi possível carregar os dados.';
         console.error(erro);
     });
+
+function trocarVideo(video, titulo) {
+    const player = document.getElementById('playerVideo');
+    const nomeVideo = document.getElementById('nomeVideo');
+
+    player.src = '/video/' + video;
+
+    nomeVideo.textContent = 'Vídeo Atual: ' + titulo;
+
+    player.play();
+}

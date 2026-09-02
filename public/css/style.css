@@ -324,3 +324,74 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
+
+/* PÁGINA DE ERRO 404 */
+
+.erro404 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #222;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.erro404 h1 {
+    font-size: 7rem;
+    color: #b5121b;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.erro404 h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.erro404 p {
+    margin-bottom: 25px;
+    color: #dddddd;
+}
+
+.erro404 a {
+    background-color: #b5121b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.erro404 a:hover {
+    background-color: #8f0e15;
+}
+
+/* VÍDEO DO PROJETO */
+
+.video-projeto {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* TROCA DE VÍDEOS */
+
+#nomeVideo {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.botoes-video {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}

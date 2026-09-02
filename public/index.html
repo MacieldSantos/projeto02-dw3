@@ -78,6 +78,53 @@
             </div>
         </section>
 
+        <section>
+            <h2>Documento do Projeto</h2>
+            <p>
+                Consulte o documento complementar com informações sobre o Projeto 02.
+            </p>
+            <a href="/pdf/informacoes-projeto02.pdf"
+               target="_blank"
+               rel="noopener">
+                Abrir PDF
+            </a>
+        </section>
+
+        <section id="video-projeto">
+            <h2>Vídeos do Projeto</h2>
+
+            <p>
+                Escolha um vídeo para conhecer diferentes partes do projeto.
+            </p>
+
+            <video 
+                id="playerVideo"
+                class="video-projeto"
+                controls>
+                <source
+                    src="/video/apresentacao.mp4"
+                    type="video/mp4">
+                Seu navegador não suporta reprodução de vídeo.
+            </video>
+            <p id="nomeVideo">
+                Vídeo atual: Apresentação do Projeto
+            </p>
+
+            <div class="botoes-video">
+                <button onclick="trocarVideo('apresentacao.mp4', 'Apresentação do Projeto')">
+                    Apresentação
+                </button>
+
+                <button onclick="trocarVideo('tamanhoPlanetas.mp4', 'Vídeo teste1')">
+                    Teste1
+                </button>
+
+                <button onclick="trocarVideo('tamanhoUniverso.mp4', 'Vídeo teste2')">
+                    Teste2
+                </button>
+            </div>
+        </section>
+
         <section id="tecnologias">
             <h2>Tecnologias Utilizadas</h2>
 
